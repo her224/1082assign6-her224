@@ -2,7 +2,7 @@ class Dinosaur extends Enemy{
 	// Requirement #4: Complete Dinosaur Class
 
 	final float TRIGGERED_SPEED_MULTIPLIER = 5;
-  float speed = 2f;
+  float speed = 1f;
   float currentSpeed = speed;
   int sign = 1; //right for true
   boolean isSpeedUp = false; 
